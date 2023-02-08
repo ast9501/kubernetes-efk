@@ -15,6 +15,9 @@ The repo provide manifests for:
 * Calico CNI
 
 ## Elasticsearch
+* Configure `nfs-provisioner` to provide storageClass (skip)
+* Edit `elasticsearch/es-tst.yaml` `storageClassName` field
+* Deploy
 ```
 kubectl apply -f elasticsearch/
 ```
